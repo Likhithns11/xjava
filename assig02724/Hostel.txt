@@ -1,0 +1,27 @@
+class Hostel
+{
+	public static void team(string name)
+	{
+		System.out.println("name of hostel:"+name);
+	}
+	
+	public static void team(string name,string type)
+	{
+		System.out.println("name of the hostel is"+name+"and its"+type+"hostel");
+	}
+	
+	public static void team(int strength)
+	{
+		System.out.println("total number of students is":+strength);
+	}
+	
+	public static void team(double fees)
+	{
+		System.out.println("hostel fee is:"+fees);
+	}
+	
+	public static void team(short year)
+	{
+		System.out.println("accadamic year:"+year);
+	}
+}
